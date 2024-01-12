@@ -32,6 +32,7 @@ header nav .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 header nav .navbar h3 {
@@ -68,29 +69,84 @@ header nav .navbar ul li:last-child {
     padding-right: 0px;
 }
 
+/* hero section styles */
+.hero {
+    text-align: center;
+}
+
+.hero h3 {
+    width: 90%;
+    margin: 0px auto 20px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero p {
+    width: 868px;
+    margin: 0px auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.hero button:hover {
+    background: #ff8f0e00;
+    border: 3px solid #FF900E;
+    color: #FF900E;
+}
+
+.hero img {
+    width: 80%;
+    margin: 0px auto 50px;
+    border-radius: 8px;
+}
+
 
 /* styles for small devices */
 @media screen and (max-width: 576px) {
-    header nav .navbar{
+    header nav .navbar {
         flex-direction: column;
         padding: 50px;
         margin: 0 auto;
     }
 
-    header nav .navbar h3{
+    header nav .navbar h3 {
         margin-bottom: 20px;
+    }
+
+    .hero p {
+        width: 90%;
+        margin: 0px auto 20px;
     }
 }
 
 /* styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    header nav .navbar{
+    header nav .navbar {
         flex-direction: column;
         padding: 50px;
         margin: 0 auto;
     }
 
-    header nav .navbar h3{
+    header nav .navbar h3 {
         margin-bottom: 20px;
+    }
+
+    .hero p {
+        width: 90%;
+        margin: 0px auto 20px;
     }
 }
