@@ -1,4 +1,96 @@
-*{
+/* insert google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/* css styles for the body */
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title_color {
+    color: #131313;
+}
+
+.description_color {
+    color: #727272;
+}
+
+.button_color {
+    color: #FFF;
+}
+
+/* header section styles */
+header {
+    background-color: #FF900E1A;
+    width: 100%;
+}
+
+header nav .navbar {
+    padding: 50px 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .navbar h3 {
+    text-align: center;
+    font-size: 2.81rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+header nav .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+header nav .navbar ul li {
+    padding-right: 30px;
+}
+
+header nav .navbar ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+header nav .navbar ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #424242;
+}
+
+header nav .navbar ul li:last-child {
+    padding-right: 0px;
+}
+
+
+/* styles for small devices */
+@media screen and (max-width: 576px) {
+    header nav .navbar{
+        flex-direction: column;
+        padding: 50px;
+        margin: 0 auto;
+    }
+
+    header nav .navbar h3{
+        margin-bottom: 20px;
+    }
+}
+
+/* styles for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header nav .navbar{
+        flex-direction: column;
+        padding: 50px;
+        margin: 0 auto;
+    }
+
+    header nav .navbar h3{
+        margin-bottom: 20px;
+    }
 }
