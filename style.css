@@ -90,7 +90,7 @@ header nav .navbar ul li:last-child {
     margin-bottom: 30px;
 }
 
-.hero button {
+button {
     width: 180px;
     height: 64px;
     flex-shrink: 0;
@@ -102,10 +102,11 @@ header nav .navbar ul li:last-child {
     font-weight: 600;
 }
 
-.hero button:hover {
+button:hover {
     background: #ff8f0e00;
     border: 3px solid #FF900E;
     color: #FF900E;
+    cursor: pointer;
 }
 
 .hero img {
