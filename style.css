@@ -385,4 +385,47 @@ button:hover {
     .features_details_section .text {
         flex-direction: column;
     }
+
+    .features_details_section .text {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .features_details_section .text .details_text .text_titile {
+        width: 90%;
+    }
+
+    .features_details_section .text .details_text p,
+    .features_details_section .text .details_text .card {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .features_details_section .text .details_text .card {
+        width: 95%;
+        height: 180px;
+    }
+
+    .features_details_section .text .details_text .card_descprition {
+        width: 80%;
+    }
+
+    .features_details_section .text .details_img img {
+        width: 90%;
+        height: auto;
+        margin-left: 29px;
+    }
+
+    .experience {
+        width: 150px;
+        height: 100px;
+        left: 73%;
+        bottom: 200px;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .experience span {
+        font-size: 2.06rem;
+    }
 }
