@@ -20,6 +20,14 @@
     color: #FFF;
 }
 
+img{
+    filter: grayscale(1);
+}
+
+img:hover{
+    filter: grayscale(0);
+}
+
 /* header section styles */
 header {
     background-color: #FF900E1A;
