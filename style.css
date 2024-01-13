@@ -176,6 +176,33 @@ button:hover {
         width: 90%;
         margin: 0px auto 20px;
     }
+
+    .features{
+        flex-direction: column;
+        margin: 80px auto 130px;
+    }
+
+    .freatures_img{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        gap: 15px;
+    }
+
+    .features_details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features_details h3{
+        width: 90%;
+        text-align: center;
+    }
+
+    .features_details p{
+        width: 95%;
+    }
 }
 
 /* styles for medium devices */
@@ -193,5 +220,32 @@ button:hover {
     .hero p {
         width: 90%;
         margin: 0px auto 20px;
+    }
+
+    .features{
+        flex-direction: column;
+        margin: 80px auto 130px;
+    }
+
+    .freatures_img{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        gap: 15px;
+    }
+
+    .features_details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features_details h3{
+        width: 90%;
+        text-align: center;
+    }
+
+    .features_details p{
+        width: 95%;
     }
 }
