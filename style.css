@@ -424,6 +424,18 @@ button:hover {
         margin-bottom: 20px;
     }
 
+    .sponsors p {
+        width: auto;
+    }
+
+    .sponsors .sponsors_logo {
+        flex-flow: row wrap;
+    }
+
+    .sponsors .sponsors_logo img {
+        margin-bottom: 50px;
+    }
+
 }
 
 /* styles for medium devices */
