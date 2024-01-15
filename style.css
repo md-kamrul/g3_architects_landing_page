@@ -485,4 +485,14 @@ button:hover {
     .experience span {
         font-size: 2.06rem;
     }
+
+    .facts .facts_card {
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        padding: 10px 5px;
+    }
+
+    .facts .facts_card .facts_card_box {
+        margin-bottom: 30px;
+    }
 }
