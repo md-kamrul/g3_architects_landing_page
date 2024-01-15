@@ -23,6 +23,7 @@
 img {
     width: 100%;
     filter: grayscale(1);
+    transition: all 1s;
 }
 
 img:hover {
@@ -110,6 +111,7 @@ button,
     margin-bottom: 50px;
     font-size: 1.25rem;
     font-weight: 600;
+    transition: all 1s;
 }
 
 button:hover {
